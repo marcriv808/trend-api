@@ -12,7 +12,7 @@ export default function Home() {
 
         <div className="bg-zinc-900 rounded-lg p-6 space-y-3">
           <p className="text-zinc-500 text-sm font-mono">// Try it now</p>
-          <pre className="text-green-400 text-sm font-mono overflow-x-auto whitespace-pre-wrap">{`curl "https://your-domain.com/api/v1/trends?platform=tiktok&category=finance" \\
+          <pre className="text-green-400 text-sm font-mono overflow-x-auto whitespace-pre-wrap">{`curl "https://trend-api-one.vercel.app/api/v1/trends?platform=tiktok&category=finance" \\
   -H "x-api-key: YOUR_KEY"`}</pre>
         </div>
 
